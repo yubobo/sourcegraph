@@ -8,6 +8,7 @@ import { ErrorNotSupportedPage } from './components/ErrorNotSupportedPage'
 import { DiscussionsPage } from './discussions/DiscussionsPage'
 import { ExplorePage } from './explore/ExplorePage'
 import { ExtensionsArea } from './extensions/ExtensionsArea'
+import { HelpPage } from './help/HelpPage'
 import { LayoutProps } from './Layout'
 import { SurveyPage } from './marketing/SurveyPage'
 import { OpenPage } from './open/OpenPage'
@@ -166,6 +167,10 @@ export const routes: ReadonlyArray<LayoutRouteProps> = [
     {
         path: '/extensions',
         render: props => <ExtensionsArea {...props} routes={props.extensionsAreaRoutes} />,
+    },
+    {
+        path: '/help',
+        render: props => <HelpPage {...props} path={props.location.pathname.slice(props.match.path.length + 1)} />,
     },
     repoRevRoute,
 ]
