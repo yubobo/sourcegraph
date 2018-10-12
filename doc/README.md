@@ -2,21 +2,23 @@
 
 Welcome to Sourcegraph, a code search and browsing tool with code intelligence that helps developers write and review code. Learn more about Sourcegraph at [about.sourcegraph.com](https://about.sourcegraph.com).
 
-Sourcegraph development is open source at [github.com/sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph).
+Sourcegraph development is open source at [github.com/sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph). If these docs don't solve your problem, check the [issue tracker](https://github.com/sourcegraph/sourcegraph/issues) or the [latest documentation](https://about.sourcegraph.com/docs).
+
 
 ## For users
 
 The [user documentation](./user) is about how to use Sourcegraph. The most read docs are:
 
-- [Tour](#TODO): A walkthrough of Sourcegraph's features, with real-world example use cases.
-- [Code search](#TODO)
+- [Overview](./user): What is Sourcegraph?
+- [Tour](./user/tour): A walkthrough of Sourcegraph's features, with real-world example use cases.
+- [Code search](./user/search)
 - [Code browsing](#TODO)
 - [Code review](#TODO)
 - [GraphQL API](./api/graphql)
 
 ## For site administrators
 
-The [site administration documentation](./site) is about deploying and managing a Sourcegraph self-hosted instance.
+The [site administration documentation](./admin) is about deploying and managing a Sourcegraph self-hosted instance.
 
 ## For contributors to Sourcegraph
 
@@ -34,7 +36,7 @@ For self-hosted Sourcegraph instances, you run a Docker image or Kubernetes clus
 ## Other links
 
 - [Sourcegraph open-source repository](https://github.com/sourcegraph/sourcegraph)
-- [Public issue tracker](https://github.com/sourcegraph/sourcegraph/issues)
+- [Issue tracker](https://github.com/sourcegraph/sourcegraph/issues)
 - [Latest documentation](https://about.sourcegraph.com/docs)
 - [about.sourcegraph.com](https://about.sourcegraph.com) (general information about Sourcegraph)
 - [@srcgraph on Twitter](https://twitter.com/srcgraph)

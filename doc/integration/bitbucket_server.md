@@ -27,3 +27,26 @@ Sourcegraph by default clones repositories from your Bitbucket Server via HTTP(s
 #### Known bugs
 
 When using [Bitbucket Server integration](/docs/features/bitbucket-server-extension/) with older Bitbucket Server versions, you must select your own Sourcegraph instance as the `primary` URL [as shown in this image](../../integrations/images/BitbucketURL.png), or else the extension will incorrectly link you to Sourcegraph.com for your Bitbucket repositories. We are actively working to resolve this.
+
+---
+
+## Browser extension
+
+The Sourcegraph browser extension will add **go-to-definition**, **find-references**, **hover tooltips**, and **code search** to all Bitbucket Server files and Pull Requests.
+
+1.  Install the Sourcegraph browser extension for [Chrome](https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/sourcegraph/).
+2.  Add your Sourcegraph URL and Bitbucket Server URL to the options menu as shown below.
+
+    <img src="./images/BitbucketURL.png" style="border: 1px solid red"/>
+
+3.  [Update Sourcegraph site configuration](/docs/config/) to allow scripts on your Bitbucket Server instance to communicate with your Sourcegraph instance:
+
+    ```json
+    {
+      // ...
+      "corsOrigin": "$BITBUCKET_URL"
+      // ...
+    }
+    ```
+
+You're done! You'll now get go-to-definition, find-references, hover tooltips, and code search on Bitbucket Server. Proceed to [install with G Suite](/docs/features/browser-extension#automatically-install-with-g-suite) when you're ready to roll it out to all users.
