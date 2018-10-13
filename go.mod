@@ -74,7 +74,7 @@ require (
 	github.com/prometheus/client_golang v0.8.0
 	github.com/prometheus/client_model v0.0.0-20171117100541-99fa1f4be8e5 // indirect
 	github.com/prometheus/common v0.0.0-20180801064454-c7de2306084e // indirect
-	github.com/prometheus/procfs v0.0.0-20180725123919-05ee40e3a273 // indirect
+	github.com/prometheus/procfs v0.0.0-20181013172433-185b4288413d // indirect
 	github.com/russross/blackfriday v0.0.0-20180829180401-f1f45ab762c2 // indirect
 	github.com/shurcooL/github_flavored_markdown v0.0.0-20180602233135-8913699a52e3
 	github.com/shurcooL/go v0.0.0-20180423040247-9e1955d9fb6e // indirect
