@@ -1,5 +1,5 @@
 # Installing Sourcegraph
 
-- [Install Sourcegraph with Docker](./install/docker)
-- [Install Sourcegraph on Kubernetes](./install/kubernetes_cluster)
+- [Install Sourcegraph with Docker](./docker.md)
+- [Install Sourcegraph on Kubernetes](./kubernetes_cluster.md)
 
