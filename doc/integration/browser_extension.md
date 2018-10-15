@@ -28,7 +28,7 @@ Enterprise, GitLab, Phabricator, and Bitbucket Server.
 
     2.  Configure the extension (see below) to connect to your Sourcegraph instance and code hosts. <!-- TODO!(sqs): clean this up -->
 
-<img src="../server/code-intelligence/images/GitHubCodeReview.gif" style="margin-left:0;margin-right:0;"/>
+<img src="./github/GitHubCodeReview.gif" style="margin-left:0;margin-right:0;"/>
 
 ## Features
 
@@ -59,7 +59,7 @@ Browser extension configuration:
 
 1.  Click the Sourcegraph extension icon to open the settings panel. Then, fill in the Sourcegraph Server URL field with your Sourcegraph URL and hit **+ Add**, and fill in the Code Host URL field with your private code host's URL and hit **+ Add**.
 
-<img src="./images/SourcegraphExtensionConfiguration.png" style="border: 1px solid red"/>
+<img src="./img/SourcegraphExtensionConfiguration.png" style="border: 1px solid red"/>
 
 2.  [Update your Sourcegraph instance's site configuration](/admin/site_config) to allow the extension to communicate with it:
 
@@ -91,4 +91,4 @@ Click the Sourcegraph extension icon in your browser's toolbar to open the exten
 2.  Press <kbd>Tab</kbd> (Chrome) or <kbd>Space</kbd> (Firefox).
 3.  Type <kbd>:</kbd> as the first letter of your search query and follow the prompts in the search suggestions.
 
-<img src="./images/AddressBarConfiguration.png" style="border: 1px solid red"/>
+<img src="./img/AddressBarConfiguration.png" style="border: 1px solid red"/>

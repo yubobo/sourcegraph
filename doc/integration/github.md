@@ -29,7 +29,7 @@ By default, the extension will add code intelligence and code search to public r
 1.  Install the Sourcegraph browser extension for [Chrome](https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/sourcegraph/)
 2.  Click the extension icon to connect the browser extension to your Sourcegraph instance. Then, fill in the Sourcegraph URL field with your Sourcegraph URL and hit save.
 
-<img src="./images/SourcegraphURL.png" style="border: 1px solid red"/>
+<img src="./img/SourcegraphURL.png" style="border: 1px solid red"/>
 
 3.  [Update Sourcegraph site configuration](/admin/site_config) to allow the extension to communicate with your Sourcegraph instance:
 

@@ -15,7 +15,7 @@ each user's Chrome browser will install and configure the Sourcegraph Chrome
 extension automatically. (It may take a few hours to fully propagate the Chrome
 settings.) Then all users will see code intelligence like this:
 
-<img src="./images/GitHubGSuiteDemo.png" style="border: 1px solid red"/>
+<img src="./img/GitHubGSuiteDemo.png" style="border: 1px solid red"/>
 
 ## Automatically install with G Suite
 

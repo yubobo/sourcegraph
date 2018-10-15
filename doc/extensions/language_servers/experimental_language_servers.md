@@ -6,7 +6,7 @@ Sourcegraph has experimental code intelligence support for Bash, Clojure, C++, C
 
 To use an experimental language server on Sourcegraph Server, open the code intelligence admin page in the site admin area (e.g., https://sourcegraph.example.com/site-admin/code-intelligence) and click **Enable**:
 
-<img src="../images/experimental-language-server-enable.png"/>
+<img src="./img/experimental-language-server-enable.png"/>
 
 This will pull the language server Docker image from the [Sourcegraph repository](https://hub.docker.com/r/sourcegraph/) and run it. Check out the [lsp-adapter](https://github.com/sourcegraph/lsp-adapter) repository to see what's in the images and how Sourcegraph communicates with the language server.
 

@@ -22,7 +22,7 @@ By spinning up Sourcegraph, you can get code intelligence:
 
 **Hover tooltips with documentation and type signatures**
 
-<img src="./images/hover-tooltip.png" width="500"/>
+<img src="./img/hover-tooltip.png" width="500"/>
 
 </div>
 
@@ -30,7 +30,7 @@ By spinning up Sourcegraph, you can get code intelligence:
 
 **Go to definition**
 
-<img src="./images/go-to-def.gif" width="500"/>
+<img src="./img/go-to-def.gif" width="500"/>
 
 </div>
 
@@ -38,7 +38,7 @@ By spinning up Sourcegraph, you can get code intelligence:
 
 **Find references**
 
-<img src="./images/find-refs.gif" width="450"/>
+<img src="./img/find-refs.gif" width="450"/>
 
 </div>
 
@@ -46,7 +46,7 @@ By spinning up Sourcegraph, you can get code intelligence:
 
 **GitHub pull request and file integration**
 
-<img src="./images/CodeReview.gif" width="450" style="margin-left:0;margin-right:0;"/>
+<img src="./img/CodeReview.gif" width="450" style="margin-left:0;margin-right:0;"/>
 
 </div>
 
@@ -54,7 +54,7 @@ By spinning up Sourcegraph, you can get code intelligence:
 
 **Symbol search**
 
-<img src="./images/Symbols.png" width="500"/>
+<img src="./img/Symbols.png" width="500"/>
 
 </div>
 
@@ -62,7 +62,7 @@ By spinning up Sourcegraph, you can get code intelligence:
 
 **Symbol sidebar**
 
-<img src="./images/SymbolSidebar.png" width="500"/>
+<img src="./img/SymbolSidebar.png" width="500"/>
 
 </div>
 

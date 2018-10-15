@@ -4,7 +4,7 @@ Sourcegraph integrates with code hosts and code review tools to power code intel
 
 To get started, follow the documentation for [installing and configuring the browser extension](/integration/browser_extension).
 
-![GitHub pull request integration](./images/GitHubDiff.png)
+![GitHub pull request integration](./github/GitHubDiff.png)
 
 ## Other integrations
 

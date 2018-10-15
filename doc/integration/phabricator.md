@@ -14,7 +14,7 @@ You can use a browser extension to try the Phabricator integration for yourself.
 1.  Install the Sourcegraph browser extension for [Chrome](https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack) or [Firefox](https://addons.mozilla.org/en-US/firefox/addon/sourcegraph/).
 2.  Add your Sourcegraph URL and Phabricator URL to the options menu as shown below.
 
-    <img src="./images/PhabricatorURL.png" style="border: 1px solid red"/>
+    <img src="./img/PhabricatorURL.png" style="border: 1px solid red"/>
 
 3.  [Update Sourcegraph site configuration](/admin/site_config) to allow scripts on your Phabricator instance to communicate with your Sourcegraph instance:
 

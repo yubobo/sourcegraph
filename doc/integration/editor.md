@@ -8,24 +8,24 @@ We currently have plugins for these editors:
 
 <a href="https://marketplace.visualstudio.com/items?itemName=sourcegraph.sourcegraph">
 <button class="btn btn-outline-primary align-items-center">
-    <img src="/integrations/vscode.svg"/>VS Code
+    <img src="./icons/vscode.svg"/>VS Code
 </button>
 </a>
 
 <a href="https://atom.io/packages/sourcegraph">
 <button class="btn btn-outline-primary align-items-center">
-    <img src="/integrations/atom.svg"/>Atom
+    <img src="./icons/atom.svg"/>Atom
 </button>
 </a>
 
 <a href="https://plugins.jetbrains.com/plugin/9682-sourcegraph">
 <button  class="btn btn-outline-primary align-items-center">
-    <img src="/integrations/jetbrains.svg"/>Intellij
+    <img src="./icons/jetbrains.svg"/>Intellij
 </button>
 
 <a href="https://github.com/sourcegraph/sourcegraph-sublime">
 <button  class="btn btn-outline-primary align-items-center">
-    <img src="/integrations/sublime.svg"/>Sublime
+    <img src="./icons/sublime.svg"/>Sublime
 </button>
 </a>
 
