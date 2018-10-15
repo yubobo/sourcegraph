@@ -82,7 +82,7 @@ Sourcegraph gives you code intelligence in:
 
 - **code files in Sourcegraph's web UI**
 
-![Hover tooltip](./code-intelligence/img/hover-tooltip.png)
+![Hover tooltip](../extensions/language_servers/img/hover-tooltip.png)
 
 - **diffs in your code review tool**, via [integrations](/integration)
 

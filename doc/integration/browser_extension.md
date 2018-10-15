@@ -10,13 +10,13 @@ Enterprise, GitLab, Phabricator, and Bitbucket Server.
 
     <a target="_blank" href="https://chrome.google.com/webstore/detail/sourcegraph/dgjhfomjieaadpoljlnidmbgkdffpack">
     <button class="btn btn-outline-primary align-items-center">
-        <img src="/integrations/chrome.svg"/>Chrome
+        <img src="./img/chrome.svg"/>Chrome
     </button>
     </a>
     <span>&nbsp;</span>
     <a target="_blank" href="https://addons.mozilla.org/en-US/firefox/addon/sourcegraph/">
     <button class="btn btn-outline-primary align-items-center">
-        <img src="/integrations/firefox.svg"/>Firefox
+        <img src="./img/firefox.svg"/>Firefox
     </button>
     </a>
 
@@ -28,7 +28,7 @@ Enterprise, GitLab, Phabricator, and Bitbucket Server.
 
     2.  Configure the extension (see below) to connect to your Sourcegraph instance and code hosts. <!-- TODO!(sqs): clean this up -->
 
-<img src="./github/GitHubCodeReview.gif" style="margin-left:0;margin-right:0;"/>
+<img src="./img/GitHubCodeReview.gif" style="margin-left:0;margin-right:0;"/>
 
 ## Features
 
