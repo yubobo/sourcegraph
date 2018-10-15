@@ -6,7 +6,7 @@ This documentation page is intended for language server developers who are adapt
 
 </div>
 
-Sourcegraph provides [code intelligence](/docs/code-intelligence) by communicating with language servers that adhere to the Language Server Protocol standard, plus a few additional protocol extensions and requirements. These additional requirements are necessary because unlike in the common case where language servers are used for local code editing, language servers running inside Sourcegraph don't have access to the developer's existing repository checkout on their machine.
+Sourcegraph provides [code intelligence](/extensions/language_servers) by communicating with language servers that adhere to the Language Server Protocol standard, plus a few additional protocol extensions and requirements. These additional requirements are necessary because unlike in the common case where language servers are used for local code editing, language servers running inside Sourcegraph don't have access to the developer's existing repository checkout on their machine.
 
 ## Implementation requirements
 
@@ -40,7 +40,7 @@ Sourcegraph communicates with language servers over TCP.
 
 1.  Start your new language server and ensure it's listening for TCP connections on an address and port that is accessible to Sourcegraph. (We assume it's listening on `tcp://mylang:1234`.)
 
-2.  Modify the Sourcegraph site configuration's "langservers" property as described in the [code intelligence documentation](/docs/code-intelligence/install) to add a new entry for your language:
+2.  Modify the Sourcegraph site configuration's "langservers" property as described in the [code intelligence documentation](/extensions/language_servers/install) to add a new entry for your language:
 
     ```json
     "langservers": [

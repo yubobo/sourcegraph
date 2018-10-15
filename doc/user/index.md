@@ -61,8 +61,8 @@ Also, both Facebook and Google provide an in-house Sourcegraph-like code search 
 
 ## How do I start using Sourcegraph?
 
-1.  [Set up Sourcegraph](/docs) inside your organization on your internal code, if nobody else has yet
-1.  Install and configure the [web browser code host integrations](/docs/integrations) (recommended)
+1.  [Set up Sourcegraph](/admin/install) inside your organization on your internal code, if nobody else has yet
+1.  Install and configure the [web browser code host integrations](/integration) (recommended)
 1.  Start searching and browsing code on Sourcegraph by visiting the URL of your organization's internal Sourcegraph instance
 
 You can also try [Sourcegraph.com](https://sourcegraph.com/search), which is a public instance of Sourcegraph for use on open-source code only.
@@ -84,15 +84,15 @@ Sourcegraph gives you code intelligence in:
 
 ![Hover tooltip](./code-intelligence/images/hover-tooltip.png)
 
-- **diffs in your code review tool**, via [integrations](/docs/integrations)
+- **diffs in your code review tool**, via [integrations](/integration)
 
 ![GitHub pull request integration](./images/GitHubDiff.png)
 
-- **code files on your code host**, via [integrations](/docs/integrations)
+- **code files on your code host**, via [integrations](/integration)
 
 ![GitHub file integration](./images/GitHubFile.png)
 
-Read the [code intelligence documentation](/docs/code-intelligence) to learn more or [set up code intelligence](/docs/code-intelligence/install).
+Read the [code intelligence documentation](/extensions/language_servers) to learn more or [set up code intelligence](/extensions/language_servers/install).
 
 ---
 
@@ -106,10 +106,10 @@ Sourcegraph code search is fast, works across all your repositories at any commi
 - Custom search scopes
 - Saved search monitoring
 
-Read the [code search documentation](/docs/search) to learn more and discover the full feature set.
+Read the [code search documentation](/user/search) to learn more and discover the full feature set.
 
 ---
 
 ## Integrations
 
-Sourcegraph allows you to get code intelligence and code search on code files and code review diffs in your code host and review tool. See our [integrations documentation](/docs/integrations) to set up Sourcegraph with your tools and roll it out to your entire team.
+Sourcegraph allows you to get code intelligence and code search on code files and code review diffs in your code host and review tool. See our [integrations documentation](/integration) to set up Sourcegraph with your tools and roll it out to your entire team.

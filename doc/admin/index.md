@@ -12,7 +12,7 @@ Site administrators are the admins responsible for deploying, managing, and conf
   - [Monitoring and tracing](./monitoring_and_tracing)
   - [Using external databases (PostgreSQL and Redis)](./external_database)
 - Features:
-  - [Code intelligence and language servers](../extensions/language-servers)
+  - [Code intelligence and language servers](../extensions/language_servers)
   - [Federation](./federation)
   - [Pings](./pings)
 - Integrations:

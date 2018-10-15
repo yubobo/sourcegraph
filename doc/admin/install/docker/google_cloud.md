@@ -1,4 +1,4 @@
-# Install Sourcegraph with Docker on Google Cloud Platform
+# Install Sourcegraph with Docker on Google Cloud
 
 <style>
 div.alert-info {
@@ -8,15 +8,15 @@ div.alert-info {
 }
 </style>
 
-This tutorial shows you how to deploy Sourcegraph to a single node running on Google Cloud Platform.
+This tutorial shows you how to deploy Sourcegraph to a single node running on Google Cloud.
 
-If you're just starting out, we recommend [installing Sourcegraph locally](/docs). It takes only a few minutes and lets you try out all of the features. If you need scalability and high-availability beyond what a single-server deployment can offer, use the [Sourcegraph Data Center](https://github.com/sourcegraph/deploy-sourcegraph) deployment option.
+If you're just starting out, we recommend [installing Sourcegraph locally](/admin/install). It takes only a few minutes and lets you try out all of the features. If you need scalability and high-availability beyond what a single-server deployment can offer, use the [Sourcegraph Data Center](https://github.com/sourcegraph/deploy-sourcegraph) deployment option.
 
 ---
 
-## Deploy to GCP VM
+## Deploy to Google Cloud VM
 
-- [Open your GCP cloud console](https://console.cloud.google.com/compute/instances) to create a new VM instance and click **Create Instance**
+- [Open your Google Cloud console](https://console.cloud.google.com/compute/instances) to create a new VM instance and click **Create Instance**
 - Choose an appropriate machine type (we recommend at least 2 vCPU and 7.5 GB RAM, more depending on team size and number of repositories/languages enabled)
 - Choose Ubuntu 16.04 LTS as your boot disk
 - Check the boxes for **Allow HTTP traffic** and **Allow HTTPS traffic** in the **Firewall** section
@@ -36,7 +36,7 @@ If you're just starting out, we recommend [installing Sourcegraph locally](/docs
 
 - Create your VM, then navigate to its public IP address.
 
-- If you have configured a DNS entry for the IP, configure `appURL` to reflect that. If `appURL` has the HTTPS protocol then Sourcegraph will get a certificate via [Let's Encrypt](https://letsencrypt.org/). For more information or alternative methods view our documentation on [TLS](/docs/config/tlsssl).
+- If you have configured a DNS entry for the IP, configure `appURL` to reflect that. If `appURL` has the HTTPS protocol then Sourcegraph will get a certificate via [Let's Encrypt](https://letsencrypt.org/). For more information or alternative methods view our documentation on [TLS](/admin/tls_ssl).
 
 ---
 
@@ -58,11 +58,11 @@ docker run -d ... sourcegraph/server:X.Y.Z
 
 This applies to you if you see the following warning on the **Admin > Code intelligence** page:
 
-> Language server management capabilities disabled because /var/run/docker.sock was not found. See https://about.sourcegraph.com/docs/code-intelligence/install for help.
+> Language server management capabilities disabled because /var/run/docker.sock was not found.
 
 ### Option A: Continue using manual code intelligence installation
 
-Just as before July 30, 2018, you can continue manually managing code intelligence for your Sourcegraph instance if you prefer. The instructions for this have [moved here](/docs/code-intelligence/install-manual-gcp).
+Just as before July 30, 2018, you can continue manually managing code intelligence for your Sourcegraph instance if you prefer. The instructions for this have [moved here](/extensions/language_servers/install/google_cloud).
 
 ### Option B (recommended): Upgrade to the new automatic code intelligence
 

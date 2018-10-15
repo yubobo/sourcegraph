@@ -1,6 +1,6 @@
 # Swift: code intelligence configuration
 
-This page describes additional configuration that may be needed for Swift code intelligence on certain codebases. To enable Swift code intelligence, see the [installation documentation](/docs/code-intelligence/install).
+This page describes additional configuration that may be needed for Swift code intelligence on certain codebases. To enable Swift code intelligence, see the [installation documentation](/extensions/language_servers/install).
 
 ---
 

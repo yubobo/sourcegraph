@@ -2,7 +2,7 @@
 
 Sourcegraph integrates with code hosts and code review tools to power code intelligence on code files and code review diffs.
 
-To get started, follow the documentation for [installing and configuring the browser extension](/docs/features/browser-extension).
+To get started, follow the documentation for [installing and configuring the browser extension](/integration/browser_extension).
 
 ![GitHub pull request integration](./images/GitHubDiff.png)
 
@@ -10,10 +10,10 @@ To get started, follow the documentation for [installing and configuring the bro
 
 We also offer other integrations for Sourcegraph users, and an API to build on top of Sourcegraph:
 
-- [Editor plugins](/docs/integrations/editor-plugins)
-- [Browser extension](/docs/features/browser-extension)
-- [Search shortcuts](/docs/features/search-shortcuts)
-- [API](/docs/features/api)
+- [Editor plugins](/integration/editor)
+- [Browser extension](/integration/browser_extension)
+- [Search shortcuts](/integration/browser_search_engine)
+- [API](/api/graphql)
 
 ## Privacy
 

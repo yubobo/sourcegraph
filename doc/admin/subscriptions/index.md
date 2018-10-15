@@ -2,17 +2,17 @@
 
 <div class="alert alert-info">
 
-Sourcegraph is <a href="https://github.com/sourcegraph/sourcegraph">open source</a>. Pricing documentation below applies to <a href="https://about.sourcegraph.com/pricing">Sourcegraph Enterprise</a>.
+Sourcegraph is [open source](https://github.com/sourcegraph/sourcegraph). Pricing documentation below applies to [Sourcegraph Enterprise](https://about.sourcegraph.com/pricing).
 
 </div>
 
-Organizations using Sourcegraph can <a href ="/pricing">upgrade to Sourcegraph Enterprise</a> to get the features that large organizations need (single sign-on, backups and recovery, cluster deployment, etc.). These additional features in Sourcegraph Enterprise are paid and not open source.
+Organizations using Sourcegraph can [upgrade to Sourcegraph Enterprise](https://about.sourcegraph.com/pricing) to get the features that large organizations need (single sign-on, backups and recovery, cluster deployment, etc.). These additional features in Sourcegraph Enterprise are paid and not open source.
 
 <!-- TODO(sqs): add info about buying a subscription -->
 
 ## True-up pricing
 
-When you purchase a new Sourcegraph Enterprise license, you select and pay for a number of users. <a href="https://about.gitlab.com/handbook/product/pricing/#true-up-pricing">Like GitLab, Sourcegraph offers true-up pricing</a>, which means the license is never blocking user growth.
+When you purchase a new Sourcegraph Enterprise license, you select and pay for a number of users. [Like GitLab, Sourcegraph offers true-up pricing](https://about.gitlab.com/handbook/product/pricing/#true-up-pricing), which means the license is never blocking user growth.
 
 Instead, if you exceed the number of users on the license, Sourcegraph will true up your license at your next renewal. This means a retroactive charge for the full yearly cost of a user will be applied for the difference between the maximum number of user accounts at any given time on your instance, and the number of users on the license.
 

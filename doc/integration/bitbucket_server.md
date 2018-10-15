@@ -6,7 +6,7 @@
 
 Sourcegraph supports automatically syncing repositories from [Bitbucket Server](https://www.atlassian.com/software/bitbucket/server). To add repositories associated with a Bitbucket Server user:
 
-1.  Go to the [site configuration editor](/docs/config).
+1.  Go to the [site configuration editor](/admin/site_config).
 2.  Press **Add Bitbucket Server projects**.
 3.  Fill in the fields in the generated `bitbucketServer` configuration option.
 
@@ -26,7 +26,7 @@ Sourcegraph by default clones repositories from your Bitbucket Server via HTTP(s
 
 #### Known bugs
 
-When using [Bitbucket Server integration](/docs/features/bitbucket-server-extension/) with older Bitbucket Server versions, you must select your own Sourcegraph instance as the `primary` URL [as shown in this image](../../integrations/images/BitbucketURL.png), or else the extension will incorrectly link you to Sourcegraph.com for your Bitbucket repositories. We are actively working to resolve this.
+When using the Bitbucket Server browser extension support with older Bitbucket Server versions, you must select your own Sourcegraph instance as the `primary` URL [as shown in this image](../../integrations/images/BitbucketURL.png), or else the extension will incorrectly link you to Sourcegraph.com for your Bitbucket repositories. We are actively working to resolve this.
 
 ---
 
@@ -39,7 +39,7 @@ The Sourcegraph browser extension will add **go-to-definition**, **find-referenc
 
     <img src="./images/BitbucketURL.png" style="border: 1px solid red"/>
 
-3.  [Update Sourcegraph site configuration](/docs/config/) to allow scripts on your Bitbucket Server instance to communicate with your Sourcegraph instance:
+3.  [Update Sourcegraph site configuration](/admin/site_config) to allow scripts on your Bitbucket Server instance to communicate with your Sourcegraph instance:
 
     ```json
     {
@@ -49,4 +49,4 @@ The Sourcegraph browser extension will add **go-to-definition**, **find-referenc
     }
     ```
 
-You're done! You'll now get go-to-definition, find-references, hover tooltips, and code search on Bitbucket Server. Proceed to [install with G Suite](/docs/features/browser-extension#automatically-install-with-g-suite) when you're ready to roll it out to all users.
+You're done! You'll now get go-to-definition, find-references, hover tooltips, and code search on Bitbucket Server. Proceed to [install with G Suite](/integration/browser_extension#automatically-install-with-g-suite) when you're ready to roll it out to all users.

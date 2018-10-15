@@ -6,7 +6,7 @@
 
 Change the `docker` `--publish` argument to make it listen on the specific interface and port on your host machine. For example, `docker run ... --publish 0.0.0.0:80:7080 ...` would make it accessible on port 80 of your machine. For more information, see "[Publish or expose port](https://docs.docker.com/engine/reference/commandline/run/#publish-or-expose-port--p---expose)" in the Docker documentation.
 
-The other option is to deploy and run Sourcegraph on a cloud provider. Follow our documentation to [deploy to Google Cloud](docs/deploy/gcp).
+The other option is to deploy and run Sourcegraph on a cloud provider. Follow our documentation to [deploy to Google Cloud](/admin/install/docker/google_cloud).
 
 ## How do I see my site config?
 

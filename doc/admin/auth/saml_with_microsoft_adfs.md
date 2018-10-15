@@ -15,7 +15,7 @@ These instructions guide you through configuring Sourcegraph as a relying party 
 1.  If using Sourcegraph Data Center, redeploy with the new configuration. (Sourcegraph Server will automatically reload the configuration and apply this change.)
 1.  Confirm there are no error messages in the Sourcegraph logs (for Sourcegraph Data Center, the `sourcegraph-frontend` pod logs). The most likely error message indicating a problem is `Error prefetching SAML service provider metadata.`.
 
-The example below demonstrates the properties that you must set. See the [SAMLAuthProvider config type](https://about.sourcegraph.com/docs/config/site#samlauthprovider-object) the full set of properties that the SAML auth provider supports.
+The example below demonstrates the properties that you must set. See the [SAMLAuthProvider config type](/admin/site_config#samlauthprovider-object) the full set of properties that the SAML auth provider supports.
 
 ```json
 {

@@ -1,6 +1,6 @@
 # PHP: code intelligence configuration
 
-To enable PHP code intelligence, see the [installation documentation](/docs/code-intelligence/install).
+To enable PHP code intelligence, see the [installation documentation](/extensions/language_servers/install).
 
 PHP code intelligence is in preview.
 

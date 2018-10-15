@@ -24,9 +24,9 @@ Enterprise, GitLab, Phabricator, and Bitbucket Server.
 
 2.  To get code intelligence on private repositories:
 
-    1.  [Set up a Sourcegraph instance](/docs).
+    1.  [Set up a Sourcegraph instance](/admin/install).
 
-    2.  [Configure the extension](/docs/features/browser-extension/configuration) to connect to your Sourcegraph instance and code hosts.
+    2.  Configure the extension (see below) to connect to your Sourcegraph instance and code hosts. <!-- TODO!(sqs): clean this up -->
 
 <img src="../server/code-intelligence/images/GitHubCodeReview.gif" style="margin-left:0;margin-right:0;"/>
 
@@ -53,7 +53,7 @@ The Sourcegraph extension makes it easy to search on your primary Sourcegraph in
 
 Requirements:
 
-- You must have a [Sourcegraph instance installed](/docs) with [access to your private repositories](/docs/config/repositories).
+- You must have a [Sourcegraph instance installed](/admin/install) with [access to your private repositories](/admin/repo/add).
 
 Browser extension configuration:
 
@@ -61,7 +61,7 @@ Browser extension configuration:
 
 <img src="./images/SourcegraphExtensionConfiguration.png" style="border: 1px solid red"/>
 
-2.  [Update your Sourcegraph instance's site configuration](/docs/config/) to allow the extension to communicate with it:
+2.  [Update your Sourcegraph instance's site configuration](/admin/site_config) to allow the extension to communicate with it:
 
     ```json
     {

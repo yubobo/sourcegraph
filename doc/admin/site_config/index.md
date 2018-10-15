@@ -12,13 +12,13 @@ In Sourcegraph Data Center, edit the `config.json` file and then follow the [upd
 
 ## Next steps
 
-See [all site configuration options](/docs/config/site), or read walkthroughs of common configuration use cases:
+See [all site configuration options](/admin/site_config), or read walkthroughs of common configuration use cases:
 
-- [Add repositories to search from your code host](/docs/config/repositories)
-- [Add user authentication providers (SSO)](/docs/config/authentication)
-- [Configure search scopes](/docs/search/scopes)
-- [Integrate with Phabricator](/docs/config/phabricator)
-- [Add organizations](/docs/config/organizations)
-- [Add a TLS/SSL certificate](/docs/config/tlsssl)
-- [Use a custom domain](/docs/config/custom-domain)
-- [Updating Sourcegraph Server](/admin/update)
+- [Add repositories to search from your code host](/admin/repo/add)
+- [Add user authentication providers (SSO)](/admin/auth)
+- [Configure search scopes](/user/search/scopes)
+- [Integrate with Phabricator](/integration/phabricator)
+- [Add organizations](/user/organizations)
+- [Add a TLS/SSL certificate](/admin/tls_ssl)
+- [Use a custom domain](/admin/url)
+- [Updating Sourcegraph Server](/admin/updates)

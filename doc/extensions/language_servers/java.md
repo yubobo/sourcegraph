@@ -1,12 +1,12 @@
 # Java: code intelligence configuration
 
-This page describes additional configuration that may be needed for Java code intelligence on certain codebases. To enable Java code intelligence, see the [installation documentation](/docs/code-intelligence/install).
+This page describes additional configuration that may be needed for Java code intelligence on certain codebases. To enable Java code intelligence, see the [installation documentation](/extensions/language_servers/install).
 
 ---
 
 ## Cross-repository code intelligence
 
-Jump-to-definition and find-references actions in Sourcegraph are source-to-source. When a user performs a jump-to-def to a dependency or a find-references in external repositories, they will navigate to the original source (rather than a decompiled `.class` file). In order for this to work, the source of the dependency or dependee must be available on your Sourcegraph instance. Refer to the [instructions for adding repositories](/docs/config/repositories).
+Jump-to-definition and find-references actions in Sourcegraph are source-to-source. When a user performs a jump-to-def to a dependency or a find-references in external repositories, they will navigate to the original source (rather than a decompiled `.class` file). In order for this to work, the source of the dependency or dependee must be available on your Sourcegraph instance. Refer to the [instructions for adding repositories](/admin/repo/add).
 
 In addition to your organization's repositories and your open-source dependencies, it is also common to add the following repositories (or forks thereof):
 

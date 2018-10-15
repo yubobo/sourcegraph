@@ -10,7 +10,7 @@ div.alert-info {
 
 This tutorial shows you how to deploy Sourcegraph to a single node running on DigitalOcean.
 
-If you're just starting out, we recommend [installing Sourcegraph locally](/docs). It takes only a few minutes and lets you try out all of the features. If you need scalability and high-availability beyond what a single-server deployment can offer, use the [Sourcegraph Data Center](https://github.com/sourcegraph/deploy-sourcegraph) deployment option.
+If you're just starting out, we recommend [installing Sourcegraph locally](/admin/install). It takes only a few minutes and lets you try out all of the features. If you need scalability and high-availability beyond what a single-server deployment can offer, use the [Sourcegraph Data Center](https://github.com/sourcegraph/deploy-sourcegraph) deployment option.
 
 ---
 
@@ -35,7 +35,7 @@ If you're just starting out, we recommend [installing Sourcegraph locally](/docs
 
 - Launch your instance, then navigate to its IP address.
 
-- If you have configured a DNS entry for the IP, configure `appURL` to reflect that. If `appURL` has the HTTPS protocol then Sourcegraph will get a certificate via [Let's Encrypt](https://letsencrypt.org/). For more information or alternative methods, see "[Using TLS/SSL](/docs/config/tlsssl)".
+- If you have configured a DNS entry for the IP, configure `appURL` to reflect that. If `appURL` has the HTTPS protocol then Sourcegraph will get a certificate via [Let's Encrypt](https://letsencrypt.org/). For more information or alternative methods, see "[Using TLS/SSL](/admin/tls_ssl)".
 
 ---
 
@@ -57,11 +57,11 @@ docker run -d ... sourcegraph/server:X.Y.Z
 
 This applies to you if you see the following warning on the **Admin > Code intelligence** page:
 
-> Language server management capabilities disabled because /var/run/docker.sock was not found. See https://about.sourcegraph.com/docs/code-intelligence/install for help.
+> Language server management capabilities disabled because /var/run/docker.sock was not found.
 
 ### Option A: Continue using manual code intelligence installation
 
-Just as before July 30, 2018, you can continue manually managing code intelligence for your Sourcegraph instance if you prefer. The instructions for this have [moved here](/docs/code-intelligence/install-manual-gcp).
+Just as before July 30, 2018, you can continue manually managing code intelligence for your Sourcegraph instance if you prefer. The instructions for this have [moved here](/extensions/language_servers/install/google_cloud).
 
 ### Option B (recommended): Upgrade to the new automatic code intelligence
 

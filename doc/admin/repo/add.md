@@ -5,7 +5,7 @@
 - [Add repositories from GitHub or GitHub Enterprise](../../integration/github)
 - [Add repositories from GitLab](../../integration/gitlab)
 - [Add repositories from Bitbucket Server](../../integration/bitbucket_server)
-- [Add repositories from AWS CodeCommit](../../integration/aws_code_commit)
+- [Add repositories from AWS CodeCommit](../../integration/aws_codecommit)
 - [Add repositories from any Git host](./add_from_git_repository)
 - [Add repositories from the local disk](./add_from_local_disk)
 

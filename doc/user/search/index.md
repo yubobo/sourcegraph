@@ -9,7 +9,7 @@
 
 Sourcegraph code search helps developers perform these tasks more quickly and effectively.
 
-[Sourcegraph](/docs) provides fast, advanced code search across multiple repositories. With Sourcegraph's code search, you can:
+[Sourcegraph](/admin/install) provides fast, advanced code search across multiple repositories. With Sourcegraph's code search, you can:
 
 - Use regular expressions and exact queries to perform full-text searches
 - Search any branch and commit, with no indexing required
@@ -19,7 +19,7 @@ Sourcegraph code search helps developers perform these tasks more quickly and ef
 - Curate [saved searches](#saved-searches) for yourself or your org
 - Set up notifications for code changes that match a query
 
-This document is for code search users. To get code search, [install Sourcegraph](/docs).
+This document is for code search users. To get code search, [install Sourcegraph](/admin/install).
 
 ---
 
@@ -27,9 +27,9 @@ This document is for code search users. To get code search, [install Sourcegraph
 
 ### Powerful, flexible queries
 
-Sourcegraph code search performs full-text searches and supports both regular expression and exact queries. By default, Sourcegraph searches across all your repositories. Our search [query syntax](/docs/search/query-syntax) allows for advanced queries, such as searching over any branch or commit, narrowing searches by programming language or file pattern, and more.
+Sourcegraph code search performs full-text searches and supports both regular expression and exact queries. By default, Sourcegraph searches across all your repositories. Our search [query syntax](/user/search/queries) allows for advanced queries, such as searching over any branch or commit, narrowing searches by programming language or file pattern, and more.
 
-See the [query syntax documentation](/docs/search/query-syntax) for a comprehensive list of tokens.
+See the [query syntax documentation](/user/search/queries) for a comprehensive list of tokens.
 
 ### Commit diff search
 
@@ -37,7 +37,7 @@ Search over commit diffs using `type:diff` to see how your codebase has changed 
 
 You can also search within commit diffs on multiple branches by specifying the branches in a `repo:` field after the `@` sign. After the `@`, separate Git refs with `:`, specify Git ref globs by prefixing them with `*`, and exclude commits reachable from a ref by prefixing it with `^`.
 
-Diff searches can be further narrowed down with filters such as author and time. See the [query syntax documentation](/docs/search/query-syntax#diff-and-commit-searches-only) for a comprehensive list of supported tokens.
+Diff searches can be further narrowed down with filters such as author and time. See the [query syntax documentation](/user/search/queries#diff-and-commit-searches-only) for a comprehensive list of supported tokens.
 
 ### Commit message search
 
@@ -45,7 +45,7 @@ Searching over commit messages is supported in Sourcegraph by adding `type:commi
 
 Separately, you can also use the `message:"any string"` token to filter `type:diff` searches for a given commit message.
 
-Commit message searches can be further narrowed down with filters such as author and time. See our [query syntax documentation](/docs/search/query-syntax#diff-and-commit-searches-only) for a comprehensive list of supported tokens.
+Commit message searches can be further narrowed down with filters such as author and time. See our [query syntax documentation](/user/search/queries#diff-and-commit-searches-only) for a comprehensive list of supported tokens.
 
 ### Symbol search
 
@@ -55,7 +55,7 @@ Searching for symbols makes it easier to find specific functions, variables and 
 
 Saved searches let you save and describe search queries so you can easily monitor the results on an ongoing basis. You can create a saved search for anything, including diffs and commits across all branches of your repositories. Saved searches can be an early warning system for common problems in your code--and a way to monitor best practices, the progress of refactors, etc.
 
-See the [saved searches documentation](/docs/search/saved-searches) for instructions for setting up and configuring saved searches.
+See the [saved searches documentation](/user/search/saved_searches) for instructions for setting up and configuring saved searches.
 
 ### Search scopes
 
@@ -86,4 +86,4 @@ Unscoped search results over large repository sets may trail latest default bran
 
 ## Sourcegraph.com
 
-[Sourcegraph.com](https://sourcegraph.com/search) is a public instance of [Sourcegraph](/docs) that lets you search inside any open-source project on GitHub. For demo purposes, you'll be prompted to narrow your query if it would search across more than 50 repositories. To lift this limitation or to search your organization's internal code, [run your own Sourcegraph instance](/docs).
+[Sourcegraph.com](https://sourcegraph.com/search) is a public instance of [Sourcegraph](/admin/install) that lets you search inside any open-source project on GitHub. For demo purposes, you'll be prompted to narrow your query if it would search across more than 50 repositories. To lift this limitation or to search your organization's internal code, [run your own Sourcegraph instance](/admin/install).

@@ -1,10 +1,10 @@
 # Installing code intelligence on Sourcegraph on AWS manually
 
-These instructions walk you through adding [code intelligence](/docs/code-intelligence) to Sourcegraph Server manually **on AWS**.
+These instructions walk you through adding [code intelligence](/extensions/language_servers) to Sourcegraph Server manually **on AWS**.
 
-**Most users will never need to follow these steps, and instead should rely on the [default automatic installation](/docs/code-intelligence/install).**
+**Most users will never need to follow these steps, and instead should rely on the [default automatic installation](/extensions/language_servers/install).**
 
-For more information, see "[Installing code intelligence on Sourcegraph](/docs/code-intelligence/install)".
+For more information, see "[Installing code intelligence on Sourcegraph](/extensions/language_servers/install)".
 
 ## Manual installation
 
@@ -31,7 +31,7 @@ Generally you do not ever need to perform manual installation of code intelligen
     docker run -d --network=lsp --name=typescript --restart unless-stopped sourcegraph/codeintel-typescript:latest
     ```
 
-    Alternatively, to boot a fresh EC2 instance running Sourcegraph and language servers, simply modify your user data [previously provided here](/docs/deploy/AWS#deploy-to-ec2) (or cloud-init.txt) to look like the following:
+    Alternatively, to boot a fresh EC2 instance running Sourcegraph and language servers, simply modify your user data [previously provided here](/admin/install/docker/aws#deploy-to-ec2) (or cloud-init.txt) to look like the following:
 
     ```
     #cloud-config
@@ -53,10 +53,10 @@ Generally you do not ever need to perform manual installation of code intelligen
     - [ sh, -c, 'docker run -d --network=lsp --name=typescript --restart unless-stopped sourcegraph/codeintel-typescript:latest' ]
     ```
 
-4.  [update site configuration to point to the language servers](/docs/code-intelligence/install-manual#configure-sourcegraph-to-connect-to-the-language-servers). You can also see a list of all available language servers there.
+4.  [update site configuration to point to the language servers](/extensions/language_servers/install#configure-sourcegraph-to-connect-to-the-language-servers). You can also see a list of all available language servers there.
 
 ---
 
 ## Next steps
 
-To get code intelligence on your code host and/or code review tool, follow the instructions in our [integrations documentation](/docs/integrations).
+To get code intelligence on your code host and/or code review tool, follow the instructions in our [integrations documentation](/integration).

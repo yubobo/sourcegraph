@@ -1,6 +1,6 @@
 # TypeScript: code intelligence configuration
 
-To enable TypeScript code intelligence, see the [installation documentation](/docs/code-intelligence/install).
+To enable TypeScript code intelligence, see the [installation documentation](/extensions/language_servers/install).
 
 Sourcegraph's TypeScript code intelligence uses your existing [tsconfig.json](http://www.typescriptlang.org/docs/handbook/tsconfig-json.html) to analyze your TypeScript code. Multiple projects (and tsconfig.json files) in a single repository are supported.
 

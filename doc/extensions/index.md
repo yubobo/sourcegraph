@@ -60,9 +60,9 @@ On Sourcegraph Enterprise, you can publish Sourcegraph extensions on your Source
 
 #### Inheritance of Sourcegraph extensions from Sourcegraph.com
 
-Sourcegraph Core, Enterprise Starter, and Enterprise instances inherit extensions from Sourcegraph.com with [`extensions.remoteRegistry`](https://about.sourcegraph.com/docs/config/site/#remoteregistry) set to `"https://sourcegraph.com/.api/registry"`. The OSS version of Sourcegraph has no dependencies on external services, and its `extensions.remoteRegistry` defaults to `false`.
+Sourcegraph Core, Enterprise Starter, and Enterprise instances inherit extensions from Sourcegraph.com with [`extensions.remoteRegistry`](/admin/site_config#remoteregistry) set to `"https://sourcegraph.com/.api/registry"`. The OSS version of Sourcegraph has no dependencies on external services, and its `extensions.remoteRegistry` defaults to `false`.
 
-You can disable inheritance by setting [`extensions.remoteRegistry`](https://about.sourcegraph.com/docs/config/site/#remoteregistry) to `false` in your site configuration:
+You can disable inheritance by setting [`extensions.remoteRegistry`](/admin/site_config#remoteregistry) to `false` in your site configuration:
 
 ```json
 {
@@ -72,7 +72,7 @@ You can disable inheritance by setting [`extensions.remoteRegistry`](https://abo
 
 #### Allowing specific extensions to be inherited from Sourcegraph.com
 
-On Sourcegraph Enterprise, you can also set [`extensions.allowRemoteExtensions`](https://about.sourcegraph.com/docs/config/site/#allowRemoteExtensions) so that only extensions in that list will be inherited from Sourcegraph.com:
+On Sourcegraph Enterprise, you can also set [`extensions.allowRemoteExtensions`](/admin/site_config#allowRemoteExtensions) so that only extensions in that list will be inherited from Sourcegraph.com:
 
 ```json
 {

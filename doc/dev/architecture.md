@@ -54,7 +54,7 @@ Here are the services that compose Sourcegraph.
 
 ### frontend ([code](https://github.com/sourcegraph/sourcegraph/tree/master/cmd/frontend))
 
-The frontend serves our [web app](./web.md) and hosts our [GraphQL API](https://about.sourcegraph.com/docs/features/api/).
+The frontend serves our [web app](./web.md) and hosts our [GraphQL API](https://docs.sourcegraph.com/api/graphql).
 
 Application data is stored in our Postgresql database.
 
@@ -114,12 +114,12 @@ Indexes symbols in repositories using Ctags.
 
 Syntect is a Rust service that is responsible for syntax highlighting.
 
-### Browser extensions ([code](https://github.com/sourcegraph/browser-extensions) | [docs](https://about.sourcegraph.com/docs/features/browser-extensions/))
+### Browser extensions ([code](https://github.com/sourcegraph/browser-extensions) | [docs](https://docs.sourcegraph.com/integration/browser_extension))
 
 We publish browser extensions for Chrome, Firefox, and Safari, that provide code intelligence (hover tooltips, jump to definition, find references) when browsing code on code hosts. By default it works for open-source code, but it also works for private code if your company has a Sourcegraph deployment.
 
 It uses GraphQL APIs exposed by the frontend to fetch data.
 
-### Editor extensions ([docs](https://about.sourcegraph.com/docs/integrations/editor-plugins))
+### Editor extensions ([docs](https://docs.sourcegraph.com/integration/editor))
 
 Our editor extensions provide lightweight hooks into Sourcegraph, currently.
